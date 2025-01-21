@@ -1,0 +1,176 @@
+.container {
+    max-width: 1000px;
+    margin: 0px auto
+}
+
+body{
+    margin: 0;
+    
+}
+
+.header {
+    background-color: red;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav__list{
+display: flex;
+list-style: none;
+gap: 63px;
+}
+
+.header__name{
+    color: rgb(255, 171, 0);
+font-family: Nico Moji;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+}
+
+.nav__item{
+    color: rgb(255, 171, 0);
+font-family: Nico Moji;
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+
+}
+
+.hero__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+.hero{
+    height: 650px; 
+    background-image: url("img/first-section.png");
+    background-size: cover;
+    
+}
+
+
+.about__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__name{
+    color: rgb(228, 228, 228);
+font-family: Nico Moji;
+font-size: 48px;
+font-weight: 400;
+text-align: center;
+margin: 0;
+}
+
+.about__picture {
+    width: 300px;
+
+}
+
+.about {
+    height: 650px; 
+    background-image: url("img/second-screen.png");
+    background-size: cover;
+    padding: 20px;
+
+}
+
+.video__name {
+    color: crimson;
+    font-family: Nico Moji;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.video__video {
+    width: 1000px;
+    padding: 10px 15px;
+    height: 500px;
+    border: 50px solid crimson
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery__item {
+    width: 300px;
+    height: 320px;
+    margin-left: 50px;
+}
+
+.gallery__list {
+    display: flex;
+}
+
+.container_gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+}
+.gallery{
+    height: 800px; 
+    background-image: url("https://sun9-19.userapi.com/impg/il6q2-cGVQJN3KiFFRZBbyeeZlz8AAggDDsLSg/Sl2SAkWERvE.jpg?size=1280x720&quality=96&sign=cf8dda8ce6b02061e36edc4e8dc561da&c_uniq_tag=OLHtF-I4W9zeOG52Q11_7IYITM3P2YCx0pXLXFRqrmg&type=album");
+    background-size: cover;
+    
+}
+
+.gallery__name{
+    color: rgb(104, 255, 2);
+font-family: Nico Moji;
+font-size: 48px;
+text-align: center;
+}
+
+.gallery__text{
+    color: rgb(13, 250, 64);
+font-family: Nico Moji;
+font-size: 48px;
+text-align: center;
+}
+
+footer{
+    background-color: grey;
+    padding: 40px;
+}
+
+.footer__title{
+    color: rgb(0, 0, 0);
+font-size: 30px;
+font-weight: 700;
+letter-spacing: 0%;
+}
+
+.footer_text{
+    color: rgb(0, 0, 0);
+font-family: Nico Moji;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0%;
+}
+
+.foter_list{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
